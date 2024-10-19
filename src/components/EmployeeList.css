@@ -1,0 +1,78 @@
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.main-hd {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 34px;
+    color: #8b0a8b;
+}
+
+.add-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    padding: 10px 20px;
+    background-color: #8b0a8b;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.details {
+    
+    width: 100%;
+    box-shadow: #0000001a 0px 4px 12px;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+    border: solid 1px #0000001a;
+    border-top: none;
+    border-left: none;
+}
+
+th {
+    background-color: #8b0a8b;
+    color: white;
+}
+
+
+tbody tr{
+    background-color: white;
+}
+
+.actions button {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.actions .edit-btn {
+    background-color: #eeee05;
+    color: white;
+}
+
+.actions .delete-btn {
+    background-color: red;
+    color: white;
+}
+
+.actions button:hover {
+    opacity: 0.8;
+}
